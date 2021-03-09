@@ -17,6 +17,19 @@ header .container {
   margin: 0 auto;
 }
 
+header a img {
+  max-width: 260px;
+  max-height: 72px;
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  header a img {
+    max-width: 150px;
+    width: 100%;
+  }
+}
+
 nav ul {
   list-style: none;
   margin: 0;
@@ -39,10 +52,4 @@ nav li a:hover {
 
 nav li:last-child a {
   padding-right: 0;
-}
-
-nav a img {
-  max-width: 260px;
-  max-height: 72px;
-  margin-bottom: 0;
 }

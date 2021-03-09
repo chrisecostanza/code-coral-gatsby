@@ -16,6 +16,8 @@
 .contactContent {
   margin-top: 65px;
   margin-bottom: 65px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
   
 .contactContent h2 {
@@ -26,12 +28,25 @@
   text-align: center;
 }
 
+@media (max-width: 768px) {
+  .contactContent h2 {
+    font-size: 30px;
+  }
+}
+
 .contactContent p.contactSubtitle {
   color: var(--subtitle-color);
   font-size: 20px;
+  line-height: 1.4;
   text-align: center;
   max-width: 600px;
   margin: 0 auto 52px auto;
+}
+
+@media (max-width: 768px) {
+  .contactContent p.contactSubtitle {
+    font-size: 18px;
+  }
 }
 
 .contactContent form {
@@ -48,6 +63,12 @@
   font-size: 20px;
   padding-bottom: 7px;
   display: block;
+}
+
+@media (max-width: 768px) {
+  .contactContent label {
+    font-size: 18px;
+  }
 }
 
 .contactContent p {
@@ -71,6 +92,15 @@
   background-color: var(--contact-field-bg);
   color: var(--contact-color);
   box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .contactContent input[type="text"],
+  .contactContent input[type="email"],
+  .contactContent select,
+  .contactContent textarea {
+    font-size: 18px;
+  }
 }
 
 .contactContent select {
