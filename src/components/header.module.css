@@ -1,0 +1,48 @@
+:root {
+  --header-bg: #444444;
+  --nav-color: #ffffff;
+  --nav-color-hover: #ff785d;
+}
+
+header {
+  background-color: var(--header-bg);
+  padding: 8px 16px;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1220px;
+  margin: 0 auto;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+}
+
+nav li {
+  margin-bottom: 0;
+}
+
+nav li a {
+  color: var(--nav-color);
+  padding: 10px 30px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  color: var(--nav-color-hover);
+}
+
+nav li:last-child a {
+  padding-right: 0;
+}
+
+nav a img {
+  max-width: 260px;
+  max-height: 72px;
+  margin-bottom: 0;
+}

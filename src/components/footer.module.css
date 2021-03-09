@@ -1,0 +1,16 @@
+:root {
+  --footer-color: #ffffff;
+  --footer-bg: #444444;
+}
+
+.footer {
+  padding: 26px 10px 45px 10px;
+  background-color: var(--footer-bg);
+  text-align: center;
+}
+
+.footer p {
+  font-size: 18px;
+  margin-bottom: 0;
+  color: var(--footer-color);
+}
