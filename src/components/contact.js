@@ -12,8 +12,8 @@ const Contact = () => (
         <input type="hidden" name="form-name" value="contact" />
         <div><input name="bot-field" /></div>
         <p>
-          <label htmlFor="fname">Full Name</label>
-          <input type="text" name="fname" maxLength="30" required />
+          <label htmlFor="name">Full Name</label>
+          <input type="text" name="name" maxLength="30" required />
         </p>
         <p>
           <label htmlFor="email">Email</label>
