@@ -5,7 +5,7 @@ import styles from "./header.module.css"
 
 import CCLogo from '../images/code-coral-header-logo.svg'
 
-const Header = ({ siteTitle }) => (
+const Header = () => (
   <header>
     <div className={styles.container}>
       <div className={styles.logo}>
