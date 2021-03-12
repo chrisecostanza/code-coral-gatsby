@@ -21,7 +21,7 @@
 }
   
 .contactContent h2 {
-  color: var(--h1-color);
+  color: var(--h2-color);
   font-size: 43px;
   margin-bottom: 20px;
   margin-top: 45px;
@@ -139,55 +139,3 @@
   color: var(--btn-text-hover);
   cursor: pointer;
 }
-
-  /* .forminator-ui.forminator-custom-form-13.forminator-design--default .forminator-select-list:hover {
-    background: transparent;
-  }
-
-  .forminator-ui.forminator-custom-form-13.forminator-design--default .forminator-is_active .forminator-select-container .forminator-select-list {
-    background-color: $contact-field-bg-active;
-    border-color: $contact-field-border-active;
-    outline: none;
-  }
-
-  .forminator-ui.forminator-custom-form-13.forminator-design--default .forminator-select-container .forminator-select-list .forminator-value,
-  .forminator-ui.forminator-custom-form-13.forminator-design--default .forminator-is_active .forminator-select-container .forminator-select-list .forminator-value,
-  .forminator-ui.forminator-custom-form-13.forminator-design--default .forminator-is_hover .forminator-select-container .forminator-select-list .forminator-value {
-    background: transparent;
-    border: none;
-    color: $contact-color;
-    font-family: $primary-font;
-    font-size: 21px;
-    font-weight: 400;
-    line-height: 1.2;
-    padding-top: 6px;
-    padding-left: 0;
-    padding-bottom: 0;
-
-    &:hover {
-      background: transparent;
-    }
-  }
-
-  .forminator-ui.forminator-custom-form-13.forminator-design--default .forminator-select-container .forminator-select-list .forminator-dropdown-handle [class*=forminator-icon-],
-  .forminator-ui.forminator-custom-form-13.forminator-design--default .forminator-is_active .forminator-select-container .forminator-select-list .forminator-dropdown-handle [class*=forminator-icon-],
-  .forminator-ui.forminator-custom-form-13.forminator-design--default .forminator-is_hover .forminator-select-container .forminator-select-list .forminator-dropdown-handle [class*=forminator-icon-] {
-    color: $contact-arrow;
-
-    &:hover {
-      color: $contact-arrow;
-    }
-  }
-
-  .forminator-ui.forminator-custom-form-13.forminator-design--default .forminator-select-container .forminator-select-list .forminator-dropdown-list {
-    background: $dark-gray;
-    border: none;
-    color: $white;
-    border-radius: 4px;
-    font-family: $primary-font;
-
-    li.current {
-      background: $coral;
-      color: $white;
-    }
-  } */

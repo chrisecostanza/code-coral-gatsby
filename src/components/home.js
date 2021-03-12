@@ -13,7 +13,7 @@ const Home = () => {
       <div className={layoutStyles.container}>
         <div id={styles.homeHeader}>
           <h1>
-            <img src={homeLogo} alt="Code Coral Logo" />
+            <img src={homeLogo} alt="Code Coral Logo" width="100%" height="auto" />
           </h1>
           <h2>Front-end Developer, Designer, and Friend</h2>
           <p>Hi I'm Chris. I love helping small businesses build sweet looking and fast websites.</p>

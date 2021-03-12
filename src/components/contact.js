@@ -8,7 +8,7 @@ const Contact = () => (
     <div className={layoutStyles.container}>
       <h2>Contact</h2>
       <p className={styles.contactSubtitle}>Let me know how I can help you with your web development needs. Whether it’s over coffee or pad thai let’s get together!</p>
-      <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" action="/thank-you">
+      <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" action="/thanks">
         <input type="hidden" name="form-name" value="contact" />
         <div><input name="bot-field" /></div>
         <p>
@@ -27,7 +27,6 @@ const Contact = () => (
             <option value="development">Website Development</option>
             <option value="both">Both</option>
           </select>
-          <div className={styles.dropdownHandle}></div>
         </p>
         <p>
           <label htmlFor="budget[]">Project Budget</label>
@@ -37,7 +36,6 @@ const Contact = () => (
             <option value="$5-15k">$5-15k</option>
             <option value="$15k+">$15k+</option>
           </select>
-          <div className={styles.dropdownHandle}></div>
         </p>
         <p>
           <label htmlFor="details">Additional Details...</label>
