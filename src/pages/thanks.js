@@ -4,7 +4,6 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Header from "../components/header"
 import ThanksContent from "../components/thanks"
-// import Footer from "../components/footer"
 
 const Thanks = () => {
   return (
@@ -12,7 +11,6 @@ const Thanks = () => {
       <Seo title="Thank You" />
       <Header />
       <ThanksContent />
-      {/* <Footer /> */}
     </Layout>
   )
 }
