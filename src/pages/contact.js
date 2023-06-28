@@ -9,7 +9,7 @@ const Contact = () => {
   return (
     <Layout>
       <Seo title="Contact Me" />
-      <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
+      <Header />
       <ContactContent />
     </Layout>
   )
