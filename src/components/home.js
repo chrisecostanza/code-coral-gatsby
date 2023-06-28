@@ -1,17 +1,17 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import layoutStyles from "./layout.module.css"
-import styles from "./home.module.css"
+import * as layoutStyles from "./layout.module.css"
+import * as homeStyles from "./home.module.css"
 
 import homeLogo from '../images/logo-home.svg'
 
 const Home = () => {
 
   return (
-    <div className={styles.homeBg}>
+    <div className={homeStyles.homeBg}>
       <div className={layoutStyles.container}>
-        <div id={styles.homeHeader}>
+        <div id={homeStyles.homeHeader}>
           <h1>
             <img src={homeLogo} alt="Code Coral Logo" />
           </h1>
@@ -19,9 +19,9 @@ const Home = () => {
           <p>Hi I'm Chris. I love helping small businesses build sweet looking and fast websites.</p>
         </div>
 
-        <div id={styles.homeNav}>
+        <div id={homeStyles.homeNav}>
           <nav>
-            <Link className={styles.btn} to='/contact/' role='button'>Contact</Link>
+            <Link className={homeStyles.btn} to='/contact/' role='button'>Contact</Link>
           </nav>
         </div>
       </div>

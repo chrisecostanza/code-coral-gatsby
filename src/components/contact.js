@@ -1,7 +1,7 @@
 import React from "react"
 
-import layoutStyles from "./layout.module.css"
-import styles from "./contact.module.css"
+import * as layoutStyles from "./layout.module.css"
+import * as styles from "./contact.module.css"
 
 const Contact = () => (
   <div className={styles.contactContent}>
@@ -27,7 +27,6 @@ const Contact = () => (
             <option value="development">Website Development</option>
             <option value="both">Both</option>
           </select>
-          <div className={styles.dropdownHandle}></div>
         </p>
         <p>
           <label htmlFor="budget[]">Project Budget</label>
@@ -37,7 +36,6 @@ const Contact = () => (
             <option value="$5-15k">$5-15k</option>
             <option value="$15k+">$15k+</option>
           </select>
-          <div className={styles.dropdownHandle}></div>
         </p>
         <p>
           <label htmlFor="details">Additional Details...</label>

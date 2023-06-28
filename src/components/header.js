@@ -1,14 +1,14 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import styles from "./header.module.css"
+import * as styles from "./header.module.css"
 
 import CCLogo from '../images/code-coral-header-logo.svg'
 
-const Header = ({ siteTitle }) => (
+const Header = () => (
   <header>
     <div className={styles.container}>
-      <div className={styles.logo}>
+      <div>
         <Link to='/'><img src={CCLogo} alt="Code Coral Logo" /></Link>
       </div>
       <nav>

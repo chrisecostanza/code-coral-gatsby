@@ -47,13 +47,9 @@
 
 #homeHeader img {
   margin-bottom: 45px;
-  width: 520px;
-}
-
-@media (max-width: 520px) {
-  #homeHeader img {
-    width: 100%;
-  }
+  width: 100%;
+  max-width: 520px;
+  height: auto;
 }
 
 @media (max-width: 768px) {
